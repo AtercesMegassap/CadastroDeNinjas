@@ -1,12 +1,18 @@
 package pontes.ryan.CadastroDeNinjas.Missoes;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import pontes.ryan.CadastroDeNinjas.Ninjas.NinjaModel;
 
 import java.util.List;
 
 @Entity
 @Table (name = "tb_missoes")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class MissoesModel {
 
     @Id
