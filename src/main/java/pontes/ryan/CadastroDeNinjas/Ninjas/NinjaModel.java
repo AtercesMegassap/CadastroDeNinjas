@@ -36,6 +36,6 @@ public class NinjaModel {
     // @ManyToOne um ninja tem uma unica missão (primeiro é a propria classe, o segundo é o atributo)
     @ManyToOne
     @JoinColumn(name = "missoes_id") // Foreing Key
-    private List<MissoesModel> missoes;
+    private MissoesModel missoes;
 
 }
